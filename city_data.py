@@ -1,3 +1,4 @@
+import re
 import utils
 from image_scraper import scrape_image
 
@@ -22,12 +23,18 @@ def download_images(cities):
         download_view_image(c)
 
 # --- NOTES ---
+def remove_brackets(string, char):
+    pattern = '\\' + char[0] + '[^' + char[1] + ']*' + '\\' + char[1]
+    return re.sub(pattern, '', string)
+
 def city_add_note(c, url):
     soup = utils.create_soup(url)
     text = soup.find('div', 'mw-content-ltr mw-parser-output')
     intro = text.find(lambda tag: tag.name == 'p' and tag.text.strip() and 'city' in tag.text)
     if intro:
-        c.note = intro.get_text()
+        txt = remove_brackets(intro.get_text(), '()')
+        txt = remove_brackets(txt, '[]')
+        c.note = txt
     else:
         url = 'https://en.wikipedia.org/wiki/' + c.name + ',_Peru'
         print('Wikipedia page not found. Now searching for: ' + url)
