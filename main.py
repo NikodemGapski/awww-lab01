@@ -55,7 +55,7 @@ if __name__ == '__main__':
     cities = cities_list(soup)
     content = md_listed_content(cities)
     # Create md file
-    md_create_file(content, 'index.md')
+    md_create_file(content, 'city_list.md')
     # Scrape images
     if not os.path.exists(img_dir):
         os.makedirs(img_dir)
