@@ -31,6 +31,8 @@ def md_listed_content(contents):
         s += '## ' + el.name + '\n'
         # Note
         s += '**Overview:** ' + el.note + '\n'
+        # Learn more
+        s += '[[Learn more]](./' + el.name + '.md)\n'
         # Image
         query = el.name + ' tourist view'
         filename = img_dir_in_docs + el.name + '_view.jpg'
