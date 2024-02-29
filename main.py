@@ -3,9 +3,9 @@ from bs4 import BeautifulSoup
 from image_scraper import scrape_image
 import os
 
-md_dir = './docs/'
+md_dir = 'docs/'
 img_dir = md_dir + 'resources/'
-img_dir_in_docs = './resources/'
+img_dir_in_docs = 'resources/'
 
 class City:
     def __init__(self, name):
@@ -25,14 +25,14 @@ def get_view_images(cities):
 
 
 def md_listed_content(contents):
-    s = ''
+    s = '[[Back to the main page]](index.md)\n'
     for el in contents:
         # Name
         s += '## ' + el.name + '\n'
         # Note
         s += '**Overview:** ' + el.note + '\n'
         # Learn more
-        s += '[[Learn more]](./' + el.name + '.md)\n'
+        s += '[[Learn more]](' + el.name + '.md)\n'
         # Image
         query = el.name + ' tourist view'
         filename = img_dir_in_docs + el.name + '_view.jpg'
