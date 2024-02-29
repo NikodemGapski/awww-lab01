@@ -38,3 +38,6 @@ def scrape_image(query, filename):
         download_image(image_url, filename=filename)
     else:
         print("No images found for the query:", query)
+
+def scrape_images(query, filenames):
+    print('TODO')
