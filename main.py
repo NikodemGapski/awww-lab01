@@ -1,17 +1,39 @@
 import requests
 from bs4 import BeautifulSoup
+from image_scraper import scrape_image
+import os
+
+md_dir = './docs/'
+img_dir = md_dir + 'resources/'
+img_dir_in_docs = './resources/'
+
+def get_view_images(cities):
+    for el in cities:
+        [name, population] = el
+        query = name + ' tourist view'
+        filename = img_dir + name + '_view.jpg'
+        scrape_image(query, filename)
 
 
-def first_word(word):
-    return word.split(' ')[0]
-
-
-def md_list(contents):
+def md_listed_content(contents):
     s = ''
     for el in contents:
-        s += '## ' + el[0] + '\n' + el[1] + '\n'
-    return s[0:-1]
+        [name, population] = el
+        # Name
+        s += '## ' + name + '\n'
+        # Population
+        s += population + '\n'
+        # Image
+        query = name + ' tourist view'
+        filename = img_dir_in_docs + name + '_view.jpg'
+        s += '\n![' + query + '](' + filename + ')' + '\n'
 
+    return s
+
+
+def md_create_file(contents, filename):
+    with open(md_dir + filename, 'w') as f:
+        f.write(contents)
 
 def cities_list(_soup):
     list_raw = _soup.find_all('ol')[-1]
@@ -29,4 +51,13 @@ def create_soup():
 if __name__ == '__main__':
     print('Hello there')
     soup = create_soup()
-    print(md_list(cities_list(soup)))
+    # Scrape list and create md content
+    cities = cities_list(soup)
+    content = md_listed_content(cities)
+    # Create md file
+    md_create_file(content, 'index.md')
+    # Scrape images
+    if not os.path.exists(img_dir):
+        os.makedirs(img_dir)
+        get_view_images(cities)
+    print('Done.')
