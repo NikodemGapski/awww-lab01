@@ -6,6 +6,7 @@
 ![Iquitos tourist view](resources/Iquitos_view.jpg)
 ## Trips and landscape
 **Day trips:** take a look at the best day trips from the city [here](https://www.tripadvisor.com/Attractions-g294315-Activities-c63-Iquitos_Loreto_Region.html).
-| ![landscape image](resources/Iquitos_landscape_0.jpg) | ![landscape image](resources/Iquitos_landscape_1.jpg) |
-| - | - |
-| ![landscape image](resources/Iquitos_landscape_2.jpg) | ![landscape image](resources/Iquitos_landscape_3.jpg) |
+:---:|:---:
+ ![landscape image](resources/Iquitos_landscape_0.jpg) | ![landscape image](resources/Iquitos_landscape_1.jpg) 
+:---:|:---:
+ ![landscape image](resources/Iquitos_landscape_2.jpg) | ![landscape image](resources/Iquitos_landscape_3.jpg) 

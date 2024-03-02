@@ -72,8 +72,9 @@ def md_city(c):
     files = []
     for file in c.landscape_files:
         files += ['![landscape image](' + file + ')']
-    s += '| ' + files[0] + ' | ' + files[1] + ' |\n'
-    s += '| - | - |\n'
-    s += '| ' + files[2] + ' | ' + files[3] + ' |\n'
+    s += ':---:|:---:\n'
+    s += ' ' + files[0] + ' | ' + files[1] + ' \n'
+    s += ':---:|:---:\n'
+    s += ' ' + files[2] + ' | ' + files[3] + ' \n'
 
     return s

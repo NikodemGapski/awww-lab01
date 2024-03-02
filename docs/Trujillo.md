@@ -6,6 +6,7 @@
 ![Trujillo tourist view](resources/Trujillo_view.jpg)
 ## Trips and landscape
 **Day trips:** take a look at the best day trips from the city [here](https://www.viator.com/Trujillo-tours/Day-Trips-and-Excursions/d5463-g5).
-| ![landscape image](resources/Trujillo_landscape_0.jpg) | ![landscape image](resources/Trujillo_landscape_1.jpg) |
-| - | - |
-| ![landscape image](resources/Trujillo_landscape_2.jpg) | ![landscape image](resources/Trujillo_landscape_3.jpg) |
+:---:|:---:
+ ![landscape image](resources/Trujillo_landscape_0.jpg) | ![landscape image](resources/Trujillo_landscape_1.jpg) 
+:---:|:---:
+ ![landscape image](resources/Trujillo_landscape_2.jpg) | ![landscape image](resources/Trujillo_landscape_3.jpg) 
