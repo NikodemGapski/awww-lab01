@@ -6,6 +6,7 @@
 ![Arequipa tourist view](resources/Arequipa_view.jpg)
 ## Trips and landscape
 **Day trips:** take a look at the best day trips from the city [here](https://www.alongdustyroads.com/posts/arequipa-tours-day-trips).
+
 |  |  |
 | --- | --- |
 | ![landscape image](resources/Arequipa_landscape_0.jpg) | ![landscape image](resources/Arequipa_landscape_1.jpg) |

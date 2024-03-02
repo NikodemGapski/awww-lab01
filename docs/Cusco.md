@@ -6,6 +6,7 @@
 ![Cusco tourist view](resources/Cusco_view.jpg)
 ## Trips and landscape
 **Day trips:** take a look at the best day trips from the city [here](https://www.alongdustyroads.com/posts/best-day-trips-from-cusco).
+
 |  |  |
 | --- | --- |
 | ![landscape image](resources/Cusco_landscape_0.jpg) | ![landscape image](resources/Cusco_landscape_1.jpg) |

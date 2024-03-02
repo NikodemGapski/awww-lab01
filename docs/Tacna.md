@@ -5,7 +5,8 @@
 
 ![Tacna tourist view](resources/Tacna_view.jpg)
 ## Trips and landscape
-**Day trips:** take a look at the best day trips from the city [here](https://www.tripadvisor.com/Attractions-g858537-Activities-c63-Tacna_Tacna_Region.html).
+**Day trips:** take a look at the best day trips from the city [here](https://www.civitatis.com/en/tacna/).
+
 |  |  |
 | --- | --- |
 | ![landscape image](resources/Tacna_landscape_0.jpg) | ![landscape image](resources/Tacna_landscape_1.jpg) |

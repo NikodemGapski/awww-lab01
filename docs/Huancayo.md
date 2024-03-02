@@ -6,6 +6,7 @@
 ![Huancayo tourist view](resources/Huancayo_view.jpg)
 ## Trips and landscape
 **Day trips:** take a look at the best day trips from the city [here](https://www.tripadvisor.com/Attractions-g616333-Activities-Huancayo_Junin_Region.html).
+
 |  |  |
 | --- | --- |
 | ![landscape image](resources/Huancayo_landscape_0.jpg) | ![landscape image](resources/Huancayo_landscape_1.jpg) |
