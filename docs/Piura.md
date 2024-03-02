@@ -5,8 +5,8 @@
 
 ![Piura tourist view](resources/Piura_view.jpg)
 ## Trips and landscape
-**Day trips:** take a look at the best day trips from the city [here](https://www.tripadvisor.com/Attractions-g2656700-Activities-Piura_Region.html).
-:---:|:---:
- ![landscape image](resources/Piura_landscape_0.jpg) | ![landscape image](resources/Piura_landscape_1.jpg) 
-:---:|:---:
- ![landscape image](resources/Piura_landscape_2.jpg) | ![landscape image](resources/Piura_landscape_3.jpg) 
+**Day trips:** take a look at the best day trips from the city [here](https://www.tripadvisor.com/Attractions-g2656700-Activities-c42-Piura_Region.html).
+|  |  |
+| --- | --- |
+| ![landscape image](resources/Piura_landscape_0.jpg) | ![landscape image](resources/Piura_landscape_1.jpg) |
+| ![landscape image](resources/Piura_landscape_2.jpg) | ![landscape image](resources/Piura_landscape_3.jpg) |
